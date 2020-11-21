@@ -20,7 +20,7 @@ let middleInitial = "L";
 let middleInitial2 = "C";
 
 let ashleyNewWalletBalance = moneyInAshleyWallet - priceOfHat;
-let janisNewWalletBalance = moneyInJanisWallet - priceOfShirt;
+let janisNewWalletBalance = moneyInJanisWallet - priceOfShirt * 2;
 
 let ashleyNewFriendsPerYear = ashleyNumberOfFriends / ashleyAgeInYears;
 let janisNewFriendsPerYear = janisNumberOfFriends / janisAgeInYears;
@@ -50,7 +50,7 @@ console.log("User one's last name is:" + " " + lastName);
 console.log("User two's last name is:" + " " + lastName2);
 
 console.log("Ashley's wallet balance after purchasing a new hat is:" + " " + ashleyNewWalletBalance);
-console.log("Janis's wallet balance after purchasing a new shirt is:" + " " + janisNewWalletBalance);
+console.log("Janis's wallet balance after purchasing two new shirts is:" + " " + janisNewWalletBalance);
 
 console.log("The number of new friends Ashley makes each year is:" + " " + ashleyNewFriendsPerYear);
 console.log ("The number of new friends Janis makes each year is:" + " " + janisNewFriendsPerYear);
